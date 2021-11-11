@@ -4,6 +4,16 @@
     <h1>My Cart</h1>
   </header>
 
+  <!--If cart is empty, provide info alert -->
+
+  <% if (enhanced_cart.length === 0) %>
+    <div class="alert alert-info" role="alert">
+      <h4>The cart is empty!</h4>
+      <h5>Please purchase some products.</h5>
+      <%= link_to 'Return to Home Page', :root %> 
+    </div>
+  <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +58,7 @@
       <% end %>
     </div>
   </div>
+
+  <% end %>
 
 </section>
