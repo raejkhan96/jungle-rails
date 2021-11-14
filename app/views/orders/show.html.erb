@@ -4,6 +4,41 @@
     <h1>Order #<%= @order.id %></h1>
   </header>
 
+  <div class="panel panel-default items">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th colspan="2">Product</th>
+          <th colspan="1">Unit Price</th>
+          <th colspan="1">Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @line_items.each do |item| %>
+          <%= render 'orderlist', product: item[:product], quantity: item[:line_item].quantity.to_i %>
+        <% end %>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">
+            TOTAL:
+          </th>
+          <th colspan="2">
+            <%= humanized_money_with_symbol cart_subtotal_cents / 100.00 %>
+          </th>
+        </tr>
+        <tr>
+          <th colspan="2">
+            EMAIL:
+          </th>
+          <th>
+            <%= @order.email %>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
   </div>
