@@ -14,7 +14,7 @@ This includes several features, such as:
 Additionally, a bug fix includes that when the cart is empty and the user goes to the carts show page, instead of displaying the contents and a stripe checkout button,a friendly message is displayed about how it is empty and link to the home page is provided
 
 ## Screenshots
-
+Products page: https://github.com/raejkhan96/jungle-rails/blob/master/screenshots/Products_page.png?raw=true
 
 ## Additional Steps for Apple M1 Machines
 
