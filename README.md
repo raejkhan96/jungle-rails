@@ -3,13 +3,13 @@
 ## About
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 This includes several features, such as:
-• A sold out badge, when the product has quantity 0
-• Admins creating and listing categories
-• A visitor registering for an account
-• A user logging in
-• The order page contains items, their image, name, description, quantities and line item totals
-• The final amount for the order is displayed
-• The email that was used to place the order is displayed
+1. A sold out badge, when the product has quantity 0
+2. Admins creating and listing categories
+3. A visitor registering for an account
+4. A user logging in
+5. The order page contains items, their image, name, description, quantities and line item totals
+6. The final amount for the order is displayed
+7. The email that was used to place the order is displayed
 
 Additionally, a bug fix includes that when the cart is empty and the user goes to the carts show page, instead of displaying the contents and a stripe checkout button,a friendly message is displayed about how it is empty and link to the home page is provided
 
