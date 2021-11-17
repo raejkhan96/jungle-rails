@@ -15,7 +15,7 @@ Additionally, a bug fix includes that when the cart is empty and the user goes t
 
 ## Screenshots
 Products page: ![alt text](https://github.com/raejkhan96/jungle-rails/blob/master/screenshots/Products_page.png?raw=true)
-Product page: ![alt text]https://github.com/raejkhan96/jungle-rails/blob/master/screenshots/product_page.png?raw=true
+Product page: ![alt text](https://github.com/raejkhan96/jungle-rails/blob/master/screenshots/product_page.png?raw=true)
 
 ## Additional Steps for Apple M1 Machines
 
